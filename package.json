@@ -1,0 +1,23 @@
+
+{
+   "name": "nexus-qe-agenticai",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI-Driven Autonomous Web Automation Framework",
+  "main": "execute-pipeline.js",
+  "scripts": {
+    "pipeline": "node engine/execute-pipeline.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/client": "^2.0.0-beta.2",
+    "@modelcontextprotocol/server": "^2.0.0-beta.2",
+    "commander": "^12.0.0",
+    "dotenv": "^16.4.5",
+    "openai": "^4.52.0",
+    "playwright": "^1.49.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "allure-playwright": "^3.0.0"
+  }
+}
